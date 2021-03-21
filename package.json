@@ -1,0 +1,24 @@
+{
+  "name": "test-next.git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/make-story/test-next.git",
+  "author": "Sung-min Yu <yu9221@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "typescript": "^4.1.5"
+  }
+}
