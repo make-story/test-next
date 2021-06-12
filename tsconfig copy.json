@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext",
+    "paths": {
+      "src/*": [
+        "./src/*"
+      ],
+      "smartBeauty/*": [
+        "./src/smartBeauty/*"
+      ],
+      "public/*": [
+        "./public/*"
+      ],
+      "modules/*": [
+        "./src/modules/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      "types/*": [
+        "./src/types/*"
+      ],
+      "utils/*": [
+        "src/common/utils/*"
+      ],
+      "apmall7/*": [
+        "./src/apmall7/*"
+      ],
+      "common/*": [
+        "./src/common/*"
+      ],
+      "display/*": [
+        "./src/display/*"
+      ],
+      "customer/*": [
+        "./src/customer/*"
+      ],
+      "order/*": [
+        "./src/order/*"
+      ],
+      "product/*": [
+        "./src/product/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    "public",
+    "src/common/utils/cipher",
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
