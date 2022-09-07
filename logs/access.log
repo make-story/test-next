@@ -1,0 +1,4 @@
+::1 - - [2021-06-26 20:39:30] "GET / HTTP/1.1" 404 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" 202.028 ms
+::1 - - [2021-06-26 20:39:30] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" 13.173 ms
+::1 - - [2021-06-26 20:39:34] "GET /kr/ko/_next/webpack-hmr?page=/_error HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" 1.678 ms
+::1 - - [2021-06-26 20:42:50] "GET /kr/ko/_next/webpack-hmr?page=/_error HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" 1.076 ms
