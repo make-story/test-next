@@ -3,18 +3,10 @@
     "next/babel"
   ],
   "plugins": [
-    ["babel-plugin-styled-components", { "fileName": true, "displayName": true, "pure": true , "ssr": true, "preprocess": false }],
     ["module-resolver", {
       "root": ["./"],
       "alias": {
-        "pages": "./src/pages",
-        "types": "./src/types",
-        "public": "./public",
-        "config": "./config",
-        "apmall7": "./src/apmall7",
-        "my": "./src/my",
-        "smartBeauty": "./src/smartBeauty",
-        "product": "./src/product",
+        "pages": "./src/pages"
       },
       "extensions": [".ts", ".tsx"]
     }]
