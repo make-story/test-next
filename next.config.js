@@ -4,7 +4,8 @@ const dotenv = require('dotenv');
 //dotenv.config({ path: path.join(__dirname, `envs/.env.${process.env.TARGET_ENV}`), silent: true });
 
 module.exports = {
-  basePath: '/kr/ko',
+  //basePath: '/kr/ko',
+  // https://nextjs.org/docs/api-reference/next.config.js/runtime-configuration
   publicRuntimeConfig: {},
   serverRuntimeConfig: {},
   // 웹팩설정
